@@ -1,0 +1,207 @@
+---
+title: "BARCELONA GROUP"
+author: "CICERON"
+date: '24th October, 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+
+## **RESTAURANTS FOR DINNERS** {.tabset .tabset-fade .tabset-pills}
+
+### SHOKO
+
+```{r child='RestShoko.Rmd'}
+
+```
+
+<hr>
+  <br><br>
+<img src = "MEDIDAS SHOKO.jpg" width="800">
+  <br><br>
+
+
+**COCKTAIL MENU**
+
+    Toast with tomato and Spanish Iberian ham 
+    Cod brandade pie 
+    Seafood cocktail sppon 
+    Cheese selection 
+    Wild mushroom croquettes 
+    Potato omelette with caramelized onions 
+    Crusty squid mini burger with apple dressing 
+    Potato cubes with traditional Spanish spicy sauce 
+    Brochette of filet steak with mushroom 
+    Fish croquettes with fresh tender garlic 
+    Prawn wrapped in thin potatoe & black olive pate 
+    "Chistorra" (spicy Spanish sausage) and green peppers 
+    Mini chocolate foundant 
+    Fruit brochettes 
+    Catalan creme bruelee shot 
+    Soft drins, wine, cava and beer 
+    
+   
+**Important note** _Cocktail dinner in shoko is based in buffet stations. First 20 minutes waiters will serve drinks and food in trays but after this time, guests will go to food stations for dinner. Food stations will be placed at the terrace_
+
+
+**SEATED DINNER MENU**
+
+    Welcome appetizer
+    
+    Sushi Moriawase, Shoko chef's selection (8 units)
+   
+    Grilled filet steak with Perigueux sauce and violet crisp trinxat 
+    
+    Grilled Octopus with tomato tartar and confit potatoes in pepper 
+    
+    Chocolate and apricot Sacher Cake 
+    
+    Wine: luis Cañas (White and red) 
+    Water, coffee or tea 
+
+**Important note** _For seated dinner we will have tables at the terrace and in the indoor part. They will have the restaurant in exclusivity for the group_ 
+  <br><br>
+
+   
+
+
+### CDLC 
+
+```{r child='RestCDLC.Rmd'}
+
+```
+
+<hr>
+  <br><br>
+
+**COCKTAIL DINNER MENU**
+    Cold appetizers 
+    Cassava chips with guacamole, coriander and lime 
+    "5J" cured ham with crystallized flat bread and tomato 
+    Wheat roll filled with chicken, avocado, cheese, spicy mayonnaise and caramelized onion 
+    Foie grass "montadito" with apple and spiced mango sauce 
+    
+    Warm appetizers
+    Brie cheese puff pastry with plums, oion and rosemary 
+    Red and white quinoa mini burger with avocado, tomato and miso mayonnaise 
+    Grilled chicken skewer with portobello mushrooms, spring onion and thyme oil 
+    Beef stew with artichokes, oyster mushrooms, beans, confit potatoes, onion and fresh herbs 
+    
+    Dessert 
+    Tiramisu 
+    
+    Drinks free bar - maximum 2 hours (dinner service)
+    Red and white wine, draft beer, water, cava and soft drinks included 
+
+  <br><br>
+
+**SEATED DINNER MENU**
+
+    Appetizer
+    Uramaki filled with tuna tartar, banana wrapped in mango and fried onion
+    
+    Starter
+    Red and white quinoa salad with tomato, cucumber, red onion, tofu, raissins and spiced chicken 
+    
+    Main 
+    Basil honey-glazed salmon, couscous, prunes, sliced almonds and asparagus 
+    or 
+    Sweet chilli marinated grilled chicken, fried rice, peanuts, coriander and lime 
+    
+    Dessert
+    White chocolate mousse, oreo biscuits and mango-passion fruit cream 
+    
+    Drinks: 
+    White wine Vernier 
+    Red wine Inpaciente 
+    Mineral water 
+    Coffee or tea 
+   
+  
+
+### PRINCIPAL 
+
+```{r child='RestPrincipal.Rmd'}
+
+```
+ 
+ <br> <br>
+**COCKTAIL OPTION**
+    
+    Savoury Snacks 
+    
+    Mini Ham Croquettes 
+    Foie Choux 
+    Fried Artichokes 
+    Crispy sesame bread with smoked salmon
+    Tomato soup Shot 
+    Veal Carpaccio toast wit foie mousse and truffle vinaigrette, sundried tomato,     goat cheese and basil brick 
+    Hummus with white tuna, sesame and soybeans 
+    Truffled bikinis
+    Shirmp and green asparagus brochette 
+    Truffle rigatonis and parmensan cheese 
+    Sirloin steak, onion and mustard 
+    
+    Desserts (mini pastries)
+    Dark and white chocolate tart sweet pastries 
+    Leon and merengue pie straberry and mint sorbet 
+    Coffee and tea 
+   
+    
+    **Open bar during the cocktail dinner**
+    White Wine Ermita D'Espiells D.O. Penedes
+    Red withe Sileo D.O. Montsant
+    Cava Juve i Camps 
+    Water, beers and soft drinks
+  <br>
+
+
+*****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for  Ciceron Group
+  
+  * For a group of minimum 300 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+

@@ -1,0 +1,67 @@
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<div class="restaurants" style="background-color: rgba(238, 238, 238, 0.6);
+  color: black;
+  margin: auto;
+  padding: 5px;
+  border-style: none;
+  border-width: 2px;
+  border-radius: 5px;">
+  <h3>Restaurant El Principal</h3>
+  <p style= "font-weight: normal"> Located 50 meters from the famous La Pedrera and Paseo de Gracia, **El Principal** is a versatile space.It is a stately main floor flooded with natural light thanks to its large windows. It has a magnificent interior courtyard is dividing the space in 2 but with good weather the whole venue has a capacity for 500 pax in cocktail style.
+  **El Principal** bases its cuisine in the traditional Catalan cuisine and seasonal products, and offer proposals developed especially for groups and special occasions. Also it has an extensive wine list.
+  On the basement it has a small private disco-club up to 150 pax, that can be used after dinner to extend the party.</p>
+  <hr>
+  <br>
+  
+<div class="clearfix">
+  <div class="img-container" style="float: left;
+  width: 33.33%;
+  padding: 5px;">
+  <img src="principal1.jpg" alt="Biblioteca" style="width:100%">
+  </div>
+  <div class="img-container" style="float: left;
+  width: 33.33%;
+  padding: 5px;">
+  <img src="principal2.jpg" alt="Restaurant" style="width:100%">
+  </div>
+  <div class="img-container" style="float: left;
+  width: 33.33%;
+  padding: 5px;">
+  <img src="principal3.jpg" alt="Patio" style="width:100%">
+  </div>
+  <div style="clear: both;"></div>
+</div>  
+<hr>
+
+<section class="container">
+
+<div class ="one" style="float: left;
+    padding: 5px;">
+<p><i class="fa fa-map-o" style="font-size:20px;color:orange;"></i> 
+<b>Location:</b> City centre</p> 
+<p><i class="fa fa-cutlery" style="font-size:20px;color:orange;"></i> 
+<b>Dining room capacities:</b> 500pax cocktail / seated 264 pax</p> 
+<p><i class="fa fa-eur" style="font-size:20px;color:orange;"></i> 
+<b>Price Level:</b> average-high</p> 
+</div>
+
+<div class ="two" style="float: left;
+    padding: 5px;">
+<p><i class="fa fa-apple" style="font-size:20px;color:orange;"></i> 
+<b>Vegetarian Options/Special diets:</b> Available</p> 
+<p><i class="fa fa-handshake-o" style="font-size:20px;color:orange;"></i> 
+<b>Style:</b>  Mix of Mediterranean and author cuisine</p>
+<p><i class="fa fa-wheelchair" style="font-size:20px;color:orange;"></i> 
+<b>Handicapped access:</b> Yes</p> 
+</div>
+</section>
+</div>
+
+
+  
+
